@@ -1,0 +1,25 @@
+<scan:ScanJob xmlns:scan="http://www.hp.com/schemas/imaging/con/cnx/scan/2008/08/19" xmlns:dd="http://www.hp.com/schemas/imaging/con/dictionaries/1.0/" xmlns:fw="http://www.hp.com/schemas/imaging/con/firewall/2011/01/05">
+    <scan:XResolution>300</scan:XResolution>
+    <scan:YResolution>300</scan:YResolution>
+    <scan:XStart>0</scan:XStart>
+    <scan:YStart>0</scan:YStart>
+    <scan:Width>2480</scan:Width>
+    <scan:Height>3508</scan:Height>
+    <!-- Jpeg/Pdf-->
+    <scan:Format>Jpeg</scan:Format>
+    <!--image quality (use 100-n) for example: 75 is 25% of the print quality,0 is 100% of the print quality-->
+    <scan:CompressionQFactor>0</scan:CompressionQFactor>
+    <!--Gray/Color-->
+    <scan:ColorSpace>Gray</scan:ColorSpace>
+    <scan:BitDepth>8</scan:BitDepth>
+    <scan:InputSource>Platen</scan:InputSource>
+    <scan:GrayRendering>NTSC</scan:GrayRendering>
+    <scan:ToneMap>
+        <scan:Gamma>1000</scan:Gamma>
+        <scan:Brightness>600</scan:Brightness>
+        <scan:Contrast>600</scan:Contrast>
+        <scan:Highlite>179</scan:Highlite>
+        <scan:Shadow>25</scan:Shadow>
+    </scan:ToneMap>
+    <scan:ContentType>Photo</scan:ContentType>
+</scan:ScanJob>
